@@ -1,0 +1,41 @@
+{
+    "name": "todolist-api-server",
+    "version": "1.0.0",
+    "description": "API server for ToDo list",
+    "main": "index.js",
+    "dependencies": {
+        "@hapi/joi": "^15.1.0",
+        "assert": "^2.0.0",
+        "aws-sdk": "^2.689.0",
+        "axios": "^0.19.2",
+        "chai": "^4.2.0",
+        "chai-http": "^4.3.0",
+        "config-yml": "^0.10.3",
+        "cors": "^2.8.5",
+        "ejs": "^2.6.2",
+        "express": "^4.17.1",
+        "express-rate-limit": "^5.0.0",
+        "log4js": "^4.4.0",
+        "md5": "^2.2.1",
+        "mocha": "^7.2.0",
+        "moment": "^2.24.0",
+        "moment-timezone": "^0.5.27",
+        "mongodb": "^3.6.2",
+        "ms": "^2.1.2",
+        "mysql2": "^1.6.5",
+        "nodemon": "^2.0.4",
+        "sequelize": "^5.21.11",
+        "should": "^13.2.3",
+        "swagger-ui-express": "^4.0.5",
+        "underscore": "^1.9.1",
+        "yamljs": "^0.3.0"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "dev": "nodemon index.js",
+        "start": "nodemon index.js",
+        "test": "mocha test.js"
+    },
+    "author": "teh",
+    "license": "ISC"
+}

@@ -1,0 +1,21 @@
+env: development
+host: 
+port: 
+secret: 
+timezone: 
+
+api: 
+  limit_time: 1s
+  limit_max: 100
+
+logger:
+  path: ./log
+  filename: log.log
+  level: debug
+  log_to_console: true
+  write_to_File: true
+
+db:
+  username: 
+  password: 
+  name: 
